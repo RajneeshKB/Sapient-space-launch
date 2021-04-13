@@ -1,0 +1,21 @@
+.card-width {
+  width: 30%;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .card-width {
+    width: 30%;
+  }
+}
+
+@media (min-width: 705px) and (max-width: 991px) {
+  .card-width {
+    width: 46%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 704px) {
+  .card-width {
+    width: 100%;
+  }
+}

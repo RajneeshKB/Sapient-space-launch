@@ -1,0 +1,78 @@
+.main-content {
+  max-height: 86vh;
+
+  // .filter-container {
+  //   width: 25%;
+  // }
+  // .mission-container {
+  //   width: 75%;
+  // }
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .filter-container {
+      width: 25%;
+    }
+    .mission-container {
+      width: 75%;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1023px) {
+    .filter-container {
+      width: 25%;
+    }
+    .mission-container {
+      width: 75%;
+    }
+  }
+
+  @media (min-width: 701px) and (max-width: 991px) {
+    .filter-container {
+      width: 34%;
+    }
+    .mission-container {
+      width: 66%;
+    }
+  }
+
+  @media (min-width: 570px) and (max-width: 700px) {
+    .filter-container {
+      width: 40%;
+    }
+    .mission-container {
+      width: 60%;
+    }
+  }
+
+  @media (min-width: 510px) and (max-width: 569px) {
+    .filter-container {
+      width: 45%;
+    }
+    .mission-container {
+      width: 55%;
+    }
+  }
+
+  @media (min-width: 460px) and (max-width: 509px) {
+    .filter-container {
+      width: 50%;
+    }
+    .mission-container {
+      width: 50%;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 459px) {
+    .filter-container {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .mission-container {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 459px) {
+  .main-content {
+    flex-wrap: wrap;
+  }
+}
